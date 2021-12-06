@@ -1,9 +1,13 @@
 <template>
-  <Tutorial/>
+  <Content title="Home" />
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script>
+import Content from '~/components/Content.vue'
 
-export default Vue.extend({})
+export default {
+  components: {
+    Content,
+  },
+}
 </script>
